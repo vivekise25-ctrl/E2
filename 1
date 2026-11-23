@@ -1,0 +1,14 @@
+$ mkdir exp5
+$cd exp5
+$git init
+$git clone https://github.com/bindiyaaj-blr/GitLab-1BCS307A-
+$ls
+$git checkout -b feature-branch
+$echo "Local feature work" > feature.txt
+$git add feature.txt
+$git commit -m "Added local feature work"
+git fetch origin
+git rebase origin/main
+git log --oneline --graph --all
+git push -u origin feature-branch
+ls
